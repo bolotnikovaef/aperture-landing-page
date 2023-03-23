@@ -1,0 +1,28 @@
+.leafs {
+    padding: 260px 0 40px;
+    background-image: url(../img/leafs/leafs-bg-img.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.leafs-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 42px;
+}
+.leafs__content {
+    font-size: 14px;
+    line-height: 20px;
+    /* margin-bottom: 204px; */
+}
+.leafs-wrapper + * {
+    margin-top: 204px;
+}
+.leafs__title {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.leafs__descr {
+    width: 273px;
+    color: #C0C0C0;
+}

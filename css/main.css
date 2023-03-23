@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.container-header {
+    max-width: 1180px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.container {
+    max-width: 1330px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.container-footer {
+    max-width: 1198px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+
+a {
+    color: inherit;
+}
+.icons {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 12px;
+    line-height: 12px;
+}
+.icons li + li {
+    margin-left: 16px;
+}
+.icon-item {
+    display: flex;
+    column-gap: 6px;
+}
+.btn {
+    position: relative;
+    display: inline-block;
+    padding: 9px 10px 13px 42px;
+    font-size: 15px;
+    line-height: 20px;    
+    letter-spacing: 0.4px; 
+    color: #000000;
+    background: #FFFFFF;
+    border-radius: 14px;
+}
+.btn::before {
+    position: absolute;
+    content: "";
+    width: 32px;
+    height: 32px;
+    top: 5px;
+    left: 4px;
+    background-color: #000000;
+    border-radius: 15px;
+}
+.btn:hover {
+    background: #e5e7ebed;
+    transform: translate(0,5px);
+    transition: all 0.2s ease-in;
+}
+
+@media (max-width: 992px) {
+    .icons {
+        font-size: 10px;
+    }
+}
+@media (max-width: 768px) {
+    .icons {
+        font-size: 9px;
+    }
+}

@@ -1,0 +1,27 @@
+.starfall {
+    padding: 250px 0 40px;
+    background-image: url(../img/starfall/starfall-bg-img.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.starfall-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 80px;
+}
+.starfall-wrapper + * {
+    margin-top: 194px;
+}
+.starfall__content {
+    font-size: 14px;
+    line-height: 20px;
+}
+.starfall__title {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.starfall__descr {
+    width: 241px;
+    color: #C0C0C0;
+}

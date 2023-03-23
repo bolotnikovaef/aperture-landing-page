@@ -1,0 +1,26 @@
+.cta {
+    padding: 113px 0 100px;
+    background: #000000;
+}
+.cta-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cta__title {
+    width: 571px;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+}
+.cta__title + * {
+    margin-top: 15px;
+}
+.cta__descr {
+    font-size: 24px;
+    line-height: 30px;
+    color: #C0C0C0;
+}
+.cta__descr + * {
+    margin-top: 22px;
+}

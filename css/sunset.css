@@ -1,0 +1,27 @@
+.sunset {
+    padding: 260px 0 40px;
+    background-image: url(../img/sunset/sunset-bg-img.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.sunset-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 21px;
+}
+.sunset-wrapper + * {
+    margin-top: 204px;
+}
+.sunset__content {
+    font-size: 14px;
+    line-height: 20px;
+}
+.sunset__title {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.sunset__descr {
+    width: 298px;
+    color: #C0C0C0;
+}

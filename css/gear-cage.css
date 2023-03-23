@@ -1,0 +1,32 @@
+.gear-cage {
+    padding: 173px 0 153px;
+    background: #000000;
+    background-image: url(../img/gear-cage/gear-cage-bg-img.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 50%;
+}
+.gear-cage__title {
+    font-size: 28px;
+    line-height: 32px;
+}
+.gear-cage__title span {
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;  
+    color: #C0C0C0;
+    margin-bottom: 6px;
+}
+.gear-cage__title + * {
+    margin-top: 14px;
+}
+.gear-cage__descr {
+    max-width: 514px;
+    font-size: 14px;
+    line-height: 20px;
+}
+.gear-cage__descr + * {
+    margin-top: 20px;
+}
