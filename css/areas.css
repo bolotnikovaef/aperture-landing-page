@@ -106,23 +106,3 @@
     }
 }
 
-@media (max-width: 768px) {
-    .areas {
-        padding: 50px 0 50px;
-    }
-    .areas__title {
-        font-size: 25px;
-        line-height: 30px;
-    }
-    .areas__descr {
-        font-size: 15px;
-        line-height: 15px;
-    }
-    .card {
-        padding: 15px;
-        width: 300px;
-        height: 400px;
-        font-size: 10px;
-        line-height: 15px;
-    }
-}

@@ -41,19 +41,3 @@
     transform: translate(0,1px);
     transition: all 0.2s ease-in;
 }
-
-@media (max-width: 992px) {
-    .header {
-        padding: 15px 0;
-    }
-    .header__nav, .header__btn {
-        display: none;
-    }
-
-}
-
-@media (max-width: 768px) {
-    .header {
-        padding: 10px 0;
-    }
-}
