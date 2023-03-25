@@ -75,34 +75,4 @@
     margin-top: 17px;
 }
 
-/* Media */
-@media (max-width: 1200px) {
-    .card {
-        padding: 30px;
-        background-size: cover;
-        width: 450px;
-        height: 550px;
-    }
-}
-
-@media (max-width: 992px) {
-    .areas {
-        padding: 65px 0 65px;
-    }
-    .areas__title {
-        font-size: 30px;
-        line-height: 40px;
-    }
-    .areas__descr {
-        font-size: 18px;
-        line-height: 25px;
-    }
-    .card {
-        padding: 20px;        
-        width: 360px;
-        height: 450px;
-        font-size: 12px;
-        line-height: 18px;
-    }
-}
 
