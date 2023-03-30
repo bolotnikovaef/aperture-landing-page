@@ -25,3 +25,20 @@
     width: 241px;
     color: #C0C0C0;
 }
+
+/* Media */
+@media (max-width: 768px) {
+    .starfall {
+        padding-bottom: 15px;
+    }
+    .starfall-wrapper {
+        margin-right: 0;
+    }
+    .starfall__content {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .starfall__descr {
+        width: 218px;
+    }
+}

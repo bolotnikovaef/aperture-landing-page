@@ -25,3 +25,21 @@
     width: 298px;
     color: #C0C0C0;
 }
+
+/* Media */
+
+@media (max-width: 768px) {
+    .sunset {
+        padding-bottom: 15px;
+    }
+    .sunset-wrapper {
+        margin-right: 0;
+    }
+    .sunset__content {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .sunset__descr {
+        width: 256px;
+    }
+}

@@ -26,3 +26,20 @@
     width: 273px;
     color: #C0C0C0;
 }
+
+/* Media */
+@media (max-width: 768px) {
+    .leafs {
+        padding-bottom: 15px;
+    }
+    .leafs-wrapper {
+        margin-right: 0;
+    }
+    .leafs__content {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .leafs__descr {
+        width: 257px;
+    }
+}

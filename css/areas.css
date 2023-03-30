@@ -10,18 +10,10 @@
 .areas__content + * {
     margin-top: 42px;
 }
-.areas__title {
-    font-size: 40px;
-    line-height: 42px;
-}
 .areas__title + * {
     margin-top: 15px;
 }
-.areas__descr {
-    font-size: 23px;
-    line-height: 30px;
-    color: #C0C0C0;
-}
+
 /* cards */
 .areas__cards {
     display: flex;
@@ -87,42 +79,31 @@
 
 @media (max-width: 992px) {
     .areas {
-        padding: 65px 0 65px;
-    }
-    .areas__title {
-        font-size: 30px;
-        line-height: 40px;
-    }
-    .areas__descr {
-        font-size: 18px;
-        line-height: 25px;
+        padding: 80px 0 80px;
     }
     .card {
         padding: 20px;        
         width: 360px;
         height: 450px;
-        font-size: 12px;
+        font-size: 11px;
         line-height: 18px;
     }
 }
 
 @media (max-width: 768px) {
-    .areas {
-        padding: 50px 0 50px;
-    }
-    .areas__title {
-        font-size: 25px;
-        line-height: 30px;
-    }
-    .areas__descr {
-        font-size: 15px;
-        line-height: 15px;
-    }
     .card {
         padding: 15px;
         width: 300px;
         height: 400px;
-        font-size: 10px;
         line-height: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .areas {
+        padding: 30px 0 10px;
+    }
+    .areas__content + * {
+        margin-top: 30px;
     }
 }

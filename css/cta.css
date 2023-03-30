@@ -8,19 +8,32 @@
     align-items: center;
 }
 .cta__title {
-    width: 571px;
-    font-size: 40px;
-    line-height: 42px;
+    max-width: 571px;
     text-align: center;
 }
 .cta__title + * {
     margin-top: 15px;
 }
-.cta__descr {
-    font-size: 24px;
-    line-height: 30px;
-    color: #C0C0C0;
-}
 .cta__descr + * {
     margin-top: 22px;
+}
+
+/* Media */
+@media (max-width: 992px) {
+    .cta__title {
+        max-width: 430px;
+    }
+}
+
+@media (max-width: 768px) {
+    .cta__title {
+        font-size: 28px;
+        line-height: 35px;
+    }
+}
+
+@media (max-width: 480px) {
+    .cta {
+        padding: 70px 0 70px;
+    }
 }
